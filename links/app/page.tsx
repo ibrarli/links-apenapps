@@ -4,7 +4,7 @@ import { Globe, Mail, Phone, MapPin, MessageCircle, Linkedin, Instagram, Faceboo
 import { FaBehance, FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
 export default function ApenAppsLinks() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const links = [
     {
